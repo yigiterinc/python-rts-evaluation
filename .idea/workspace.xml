@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35440a65-e6e8-4fc1-8f6c-534fe134d959" name="Changes" comment="Implement measurements and write to csv">
+      <change afterPath="$PROJECT_DIR$/boto3/.changes/1.24.18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boto3/.changes/next-release/api-change-iot-75807.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boto3/CHANGELOG.rst" beforeDir="false" afterPath="$PROJECT_DIR$/boto3/CHANGELOG.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boto3/boto3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/boto3/boto3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boto3/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/boto3/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boto3/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/boto3/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinja/.pre-commit-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/jinja/.pre-commit-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinja/requirements/dev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jinja/requirements/dev.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinja/requirements/docs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jinja/requirements/docs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinja/requirements/tests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jinja/requirements/tests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jinja/requirements/typing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jinja/requirements/typing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/measurement.py" beforeDir="false" afterPath="$PROJECT_DIR$/measurement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requests/tests/test_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/requests/tests/test_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yapf/yapf/pyparser/split_penalty_visitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/yapf/yapf/pyparser/split_penalty_visitor.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/PyBoy" value="bdf299dd09fb47b637b0571ace7b11ed2ee6d15b" />
+        <entry key="$PROJECT_DIR$/aws-dynamodb-encryption-python" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Atv8mVKeHWH1SHAgFDR0JOvra9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/erinc/Documents/python-test-selection/python-rts-evaluation/PyBoy&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PyBoy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.measurement">
+    <configuration name="measurement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-rts-evaluation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/measurement.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_acid_cgb.test_cgb_acid" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python-rts-evaluation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyBoy/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_acid_cgb.test_cgb_acid&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.measurement" />
+        <item itemvalue="Python tests.pytest for test_acid_cgb.test_cgb_acid" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35440a65-e6e8-4fc1-8f6c-534fe134d959" name="Changes" comment="" />
+      <created>1655841539137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655841539137</updated>
+      <workItem from="1655841540472" duration="1179000" />
+      <workItem from="1655844934955" duration="5043000" />
+      <workItem from="1655850373582" duration="1405000" />
+      <workItem from="1655983127177" duration="606000" />
+      <workItem from="1656011065685" duration="4193000" />
+      <workItem from="1656016147299" duration="53000" />
+      <workItem from="1656017115178" duration="4073000" />
+      <workItem from="1656061384295" duration="208000" />
+      <workItem from="1656241304037" duration="19912000" />
+      <workItem from="1657471797889" duration="18315000" />
+      <workItem from="1657530853256" duration="5760000" />
+      <workItem from="1657537207696" duration="20522000" />
+      <workItem from="1657625074939" duration="5711000" />
+    </task>
+    <task id="LOCAL-00001" summary="First draft of script">
+      <created>1656022148205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656022148205</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implement measurements and write to csv">
+      <created>1656259398576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656259398576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="ci" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/PyBoy" />
+      <path value="$PROJECT_DIR$/aws-sam-cli" />
+      <path value="$PROJECT_DIR$/chalice" />
+      <path value="$PROJECT_DIR$/localstack" />
+      <path value="$PROJECT_DIR$/scrapy" />
+    </ignored-roots>
+    <MESSAGE value="First draft of script" />
+    <MESSAGE value="Implement measurements and write to csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement measurements and write to csv" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/measurement.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/measurement.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_rts_evaluation$pytest_for_test_acid_cgb_test_cgb_acid.coverage" NAME="pytest for test_acid_cgb.test_cgb_acid Coverage Results" MODIFIED="1657487125667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyBoy/tests" />
+    <SUITE FILE_PATH="coverage/python_rts_evaluation$measurement.coverage" NAME="measurement Coverage Results" MODIFIED="1657630188963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

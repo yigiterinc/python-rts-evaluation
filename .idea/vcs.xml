@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PynamoDB" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aws-dynamodb-encryption-python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aws-lambda-powertools-python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/boto3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/colabtools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/google-cloud-python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jinja" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mitmproxy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pandas" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/requests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/yapf" vcs="Git" />
+  </component>
+</project>

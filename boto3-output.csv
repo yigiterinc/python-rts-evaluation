@@ -1,0 +1,2 @@
+Iteration,Time taken without RTS,Number of Changed Files,Percentage of Selected Tests,Time taken with RTS,Saved Time,Ratio (with/without RTS)
+1,475.684990042,6, 0,100.87252925000007,374.8124607919999,0.21205741480531826
